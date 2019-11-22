@@ -84,25 +84,207 @@
 
                     </div>
                     <div class="col s12 l7">
-
-                        <h4>Kalundborg Forsyning</h4>
-                        <h5>Skole projekt</h5>
-                        <p>Bygning af data opsætning for Kalundborg Forsyning</p>
-                        <pre>
-
-                        </pre>
-                        <pre>
-
-                            </pre>
-                        <pre>
-
-                                </pre>
-                        <pre>
-
-                                    </pre>
-                        <pre>
-
-                                        </pre>
+                        <div id="wrap-middle">
+                            <div id="middle" style="background:none;">
+                                
+            
+                <div class="home">
+                    <div class="row-1 clearfix">
+                        <div id="news_ticker" class="printing-line" style="
+                        display:none;
+                    ">
+                            <div id="sxm_newsticker">
+                                <div class="newsticker_logo">
+                                </div>
+                                <a href="" class="text clearfix" style="color:#222;">
+                                    <span id="ticker_text" style=""></span>
+                                    <span class="ticker_underscore">_</span>
+                                </a>
+                                <a class="link" href=""></a>
+                            </div>
+                            <div class="sxm_newsticker_items" style="display:none;">
+                                <div class="sxm_newsticker_item"><div class="header"></div><div class="link"><a href=""><span class="hide"></span></a></div><div class="color"></div></div>
+                                
+                            </div>
+                        </div>
+                        <script type="text/javascript" src="/scripts/newsticker.js"></script><script type="text/javascript">
+                    $(function () {
+                        startNewsTicker(4000);
+                    });
+                </script>
+                    </div>
+                    
+                    
+                    <div class="row clearfix">
+                        <div class="boxwrap">
+                            <div class="serviceboks" style="background-image:url(/media/523770/headset.png);">
+                                <div class="servicehead">Hvad kan vi hjælpe dig med?</div>
+                                <div class="home-interestbox">
+                                    <div class="styled-select">
+                                        <select class="category" id="interest-selector">
+                                            <option value="">Vælg...</option>
+                                                <option value="https://kalfor.dk/jeg-vil-gerne/aflaese-mit-forbrugse-mine-regninger/">Aflæse mit forbrug/Se mine regninger</option><option value="https://kalfor.dk/jeg-vil-gerne/tilmeldes-betalingsservice/">Tilmeldes betalingsservice</option><option value="https://kalfor.dk/jeg-vil-gerne/tilmeldes-e-boks/">Tilmeldes E-boks</option><option value="https://kalfor.dk/jeg-vil-gerne/til-og-afmelde-sms-service/">Til- og afmelde sms-service</option><option value="https://kalfor.dk/jeg-vil-gerne/bestille-toemning-af-tank/">Bestille tømning af min tank</option><option value="https://kalfor.dk/jeg-vil-gerne/melde-flytning/">Melde flytning</option><option value="https://kalfor.dk/jeg-vil-gerne/anmelde-en-skade/">Anmelde en skade</option><option value="https://kalfor.dk/jeg-vil-gerne/soege-om-refusion-af-vandspild/">Søge om refusion af vandspild</option><option value="https://kalfor.dk/jeg-vil-gerne/soege-om-laan-til-kloakudgifter/">Søge om lån til kloakudgifter</option><option value="https://kalfor.dk/jeg-vil-gerne/soege-om-tilskud-til-energiforbedringer/">Søge om tilskud til energiforbedringer</option><option value="https://kalfor.dk/jeg-vil-gerne/klage/">Klage</option><option value="https://kalfor.dk/jeg-vil-gerne/besoege-forsyningen/">Besøge forsyningen</option><option value="https://kalfor.dk/jeg-vil-gerne/kontakte-forsyningen/">Kontakte forsyningen</option><option value="https://kalfor.dk/jeg-vil-gerne/ris-og-ros/">Ris og ros</option>
+                                        
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="serviceknapper">
+                                    <a class="knap1" href="https://kalfor.dk/jeg-vil-gerne/aflaese-mit-forbrugse-mine-regninger/tast-selv-service/">Se forbrug</a><a class="knap2" href="https://kalfor.dk/faq/">FAQ</a>
+                                </div>
+                                    
+                                <script type="text/javascript">
+                                    $(function() {
+                                        $('#interest-selector').change(function() {
+                                            if ($(this).val() != '') {
+                                                var url = $(this).val().split('$')[0];
+                                                var newWindow = $(this).val().split('$')[1];
+                                                
+                                                if (newWindow == '1') {
+                                                    window.open(url); // could be a problem if browser blocks pop-up windows
+                                                } else {
+                                                    location.href = url;	
+                                                }
+                                            }
+                                        });
+                                    });
+                                </script>
+                            </div>
+                            <div class="driftbox" style="
+            
+                color:white;background-color:#feb80a;
+            
+            " onclick="window.location='https://kalfor.dk/driftsinfo/'">
+                                <div class="bokshead">Driftsinfo</div>
+                                <div class="boksunderhead">Her arbejder vi</div>
+                                <div class="boksarrows">
+                                    <svg id="arrowDrift" style="enable-background:new 0 0 26.655 27.512;" version="1.1" viewBox="0 0 26.655 27.512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M26.31,13l-15-13L10,1.512l14.128,12.244L10,26l1.31,1.512l15-13c0.219-0.19,0.345-0.466,0.345-0.756   S26.529,13.19,26.31,13z"></path><path d="M16.655,13.756c0-0.29-0.126-0.565-0.345-0.756l-15-13L0,1.512l14.128,12.244L0,26l1.31,1.512l15-13   C16.529,14.321,16.655,14.046,16.655,13.756z"></path></g></svg>	
+                                </div>
+                            </div>
+                            <div class="toemboks" style="
+            
+                color:#feb80a;background-color:#006544;
+            
+            " onclick="window.location='https://kalfor.dk/jeg-vil-gerne/bestille-toemning-af-tank/'">
+                                <div class="bokshead">Tømning</div>
+                                <div class="boksunderhead">Bestil en tømning</div>
+                                <div class="boksarrows">
+                                    <svg id="arrowTom" style="enable-background:new 0 0 26.655 27.512;" version="1.1" viewBox="0 0 26.655 27.512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M26.31,13l-15-13L10,1.512l14.128,12.244L10,26l1.31,1.512l15-13c0.219-0.19,0.345-0.466,0.345-0.756   S26.529,13.19,26.31,13z"></path><path d="M16.655,13.756c0-0.29-0.126-0.565-0.345-0.756l-15-13L0,1.512l14.128,12.244L0,26l1.31,1.512l15-13   C16.529,14.321,16.655,14.046,16.655,13.756z"></path></g></svg>	
+                                </div>
+                            </div>
+                            <div class="newsboks">
+                                <div class="slider slide768" style=""><div class="flexslider" style=""><div class="caroufredsel_wrapper" style="text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 736px; height: 258px; margin: 0px; overflow: hidden; cursor: move; display: block;"><ul class="slides" style="cursor: pointer; text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 2576px; height: 258px; z-index: auto;"><li class="custom-slide" style="background-image: url(&quot;/media/523806/colourbox9912627-kopi.jpg?crop=0,0.28207184284054043,0,0.10237370947054859&amp;cropmode=percentage&amp;width=739&amp;height=258&quot;); background-repeat: no-repeat; width: 184px;" onclick="window.location='/om-os/job-hos-os/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:100px;color:#006544;">Er du vores nye kollega ?<br></div></li><li class="custom-slide" style="background-image: url(&quot;/media/523970/colourbox8417000-mindre.jpg?crop=0.0703401315572017,0.30736551130662465,0,0.20487275959318368&amp;cropmode=percentage&amp;width=739&amp;height=258&quot;); background-repeat: no-repeat; width: 184px;" onclick="window.location='/media/523971/mental-traening-til-alle-medarbejdere-uge-37-2019.pdf'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="color:#006544;">Mental træning <br>til alle medarbejdere</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523810/colourbox30918943.jpg?crop=0.069409368445993741,0.26298955204041025,0.03389048808198325,0.2674259343957564&amp;cropmode=percentage&amp;width=739&amp;height=258&quot;); background-repeat: no-repeat; width: 184px;" onclick="window.location='/varme/ny-takststruktur-paa-fjernvamen/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#006544;">Ny takststruktur <br>for fjernvarmekunder</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523855/colourbox580325.jpg?crop=0.28842504743833014,0.62736196665579669,0,0&amp;cropmode=percentage&amp;width=739&amp;height=258&quot;); background-repeat: no-repeat; width: 184px;" onclick="window.location='/om-os/samfund-og-ansvar/baeredygtig-forsyning/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#000000;">22% mindre CO2<br>er udledt i 2018</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523827/colourbox1008784.jpg?crop=0,0.513731233980227,1.2631870857957334E-16,0.049964101834844746&amp;cropmode=percentage&amp;width=739&amp;height=258&quot;); background-repeat: no-repeat; width: 184px;" onclick="window.location='/kloak/toilettet-er-ikke-en-skraldespand/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#000000;">Toilettet er ikke en skraldespand<br></div></li></ul></div></div></div>
+                                <div class="slider slidedesk"><div class="flexslider" style=""><div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 0px; height: 258px; margin: 0px; overflow: hidden; cursor: move;"><ul class="slides" style="cursor: pointer; text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 0px; height: 258px; z-index: auto;"><li class="custom-slide" style="background-image: url(&quot;/media/523970/colourbox8417000-mindre.jpg?crop=0.037308192001123668,0.11543345547705595,0.023403209382351027,0.033657072720645907&amp;cropmode=percentage&amp;width=428&amp;height=258&quot;); background-repeat: no-repeat; width: 0px;" onclick="window.location='/media/523971/mental-traening-til-alle-medarbejdere-uge-37-2019.pdf'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="color:#006544;">Mental træning <br>til alle medarbejdere</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523810/colourbox30918943.jpg?crop=4.7385310820946968E-16,0.085445148382794683,0.10803601200400134,0.10803601200400145&amp;cropmode=percentage&amp;width=428&amp;height=258&quot;); background-repeat: no-repeat; width: 0px;" onclick="window.location='/varme/ny-takststruktur-paa-fjernvamen/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#006544;">Ny takststruktur <br>for fjernvarmekunder</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523855/colourbox580325.jpg?crop=0.0696721311475411,0.2069672131147528,0.05327868852458862,0&amp;cropmode=percentage&amp;width=428&amp;height=258&quot;); background-repeat: no-repeat; width: 0px;" onclick="window.location='/om-os/samfund-og-ansvar/baeredygtig-forsyning/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#000000;">22% mindre CO2<br>er udledt i 2018</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523827/colourbox1008784.jpg?crop=0.293845081533989,0.47471451117763452,0.092646553680818824,0.063105632204629253&amp;cropmode=percentage&amp;width=428&amp;height=258&quot;); background-repeat: no-repeat; width: 0px;" onclick="window.location='/kloak/toilettet-er-ikke-en-skraldespand/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#000000;">Toilettet er ikke en skraldespand<br></div></li><li class="custom-slide" style="background-image: url(&quot;/media/523806/colourbox9912627-kopi.jpg?crop=0.01538817540205947,0,0.043734814300590064,0&amp;cropmode=percentage&amp;width=428&amp;height=258&quot;); background-repeat: no-repeat; width: 0px;" onclick="window.location='/om-os/job-hos-os/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:100px;color:#006544;">Er du vores nye kollega ?<br></div></li></ul></div><div class="slider-dots" style="display: block;"><a href="#" class="selected"><span>1</span></a><a href="#" class=""><span>2</span></a><a href="#" class=""><span>3</span></a><a href="#" class=""><span>4</span></a><a href="#" class=""><span>5</span></a></div></div></div>
+                                <div class="slider slide320"><div class="flexslider" style=""><div class="caroufredsel_wrapper" style="text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 0px; height: 258px; margin: 0px; overflow: hidden; cursor: move;"><ul class="slides" style="cursor: pointer; text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 0px; height: 258px;"><li class="custom-slide" style="background-image: url(&quot;/media/523806/colourbox9912627-kopi.jpg?crop=0.0593543908365151,0,0.23718616221219482,0&amp;cropmode=percentage&amp;width=320&amp;height=258&quot;); background-repeat: no-repeat;" onclick="window.location='/om-os/job-hos-os/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:100px;color:#006544;">Er du vores nye kollega ?<br></div></li><li class="custom-slide" style="background-image: url(&quot;/media/523970/colourbox8417000-mindre.jpg?crop=0.051582444483301279,0,0.12309844378387827,0&amp;cropmode=percentage&amp;width=320&amp;height=258&quot;); background-repeat: no-repeat;" onclick="window.location='/media/523971/mental-traening-til-alle-medarbejdere-uge-37-2019.pdf'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="color:#006544;">Mental træning <br>til alle medarbejdere</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523810/colourbox30918943.jpg?crop=0.11627906976744186,0,0.056847545219638244,0&amp;cropmode=percentage&amp;width=320&amp;height=258&quot;); background-repeat: no-repeat;" onclick="window.location='/varme/ny-takststruktur-paa-fjernvamen/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#006544;">Ny takststruktur <br>for fjernvarmekunder</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523855/colourbox580325.jpg?crop=0.083730466478396132,0.54989532449406842,0.54408995687587236,0&amp;cropmode=percentage&amp;width=320&amp;height=258&quot;); background-repeat: no-repeat;" onclick="window.location='/om-os/samfund-og-ansvar/baeredygtig-forsyning/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#000000;">22% mindre CO2<br>er udledt i 2018</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523827/colourbox1008784.jpg?crop=0.16495751538236156,0.22226290735994139,0.063177255554554113,1.2569900659986883E-05&amp;cropmode=percentage&amp;width=320&amp;height=258&quot;); background-repeat: no-repeat;" onclick="window.location='/kloak/toilettet-er-ikke-en-skraldespand/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#000000;">Toilettet er ikke en skraldespand<br></div></li></ul></div></div></div>
+                                <div class="slider slide480"><div class="flexslider" style=""><div class="caroufredsel_wrapper" style="text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 0px; height: 258px; margin: 0px; overflow: hidden; cursor: move;"><ul class="slides" style="cursor: pointer; text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 0px; height: 258px;"><li class="custom-slide" style="background-image: url(&quot;/media/523806/colourbox9912627-kopi.jpg?crop=0,0.017019371345029236,0,0.031317999278181706&amp;cropmode=percentage&amp;width=478&amp;height=258&quot;); background-repeat: no-repeat; width: 478px;" onclick="window.location='/om-os/job-hos-os/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:100px;color:#006544;">Er du vores nye kollega ?<br></div></li><li class="custom-slide" style="background-image: url(&quot;/media/523970/colourbox8417000-mindre.jpg?crop=0.078332128223668307,0.19318066795302466,0.01783562304169746,0.073677479623264444&amp;cropmode=percentage&amp;width=478&amp;height=258&quot;); background-repeat: no-repeat; width: 478px;" onclick="window.location='/media/523971/mental-traening-til-alle-medarbejdere-uge-37-2019.pdf'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="color:#006544;">Mental træning <br>til alle medarbejdere</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523810/colourbox30918943.jpg?crop=0.025285473622229895,0.13816644993498048,0.1619707032308261,0.20381710747533882&amp;cropmode=percentage&amp;width=478&amp;height=258&quot;); background-repeat: no-repeat; width: 478px;" onclick="window.location='/varme/ny-takststruktur-paa-fjernvamen/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#006544;">Ny takststruktur <br>for fjernvarmekunder</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523855/colourbox580325.jpg?crop=0.067798673354225111,0.57418122494967927,0.40625462257845363,0&amp;cropmode=percentage&amp;width=478&amp;height=258&quot;); background-repeat: no-repeat; width: 478px;" onclick="window.location='/om-os/samfund-og-ansvar/baeredygtig-forsyning/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#000000;">22% mindre CO2<br>er udledt i 2018</div></li><li class="custom-slide" style="background-image: url(&quot;/media/523827/colourbox1008784.jpg?crop=0.18605332552007031,0.42987916514097396,0.023717420192937145,0.037081202511817346&amp;cropmode=percentage&amp;width=478&amp;height=258&quot;); background-repeat: no-repeat; width: 478px;" onclick="window.location='/kloak/toilettet-er-ikke-en-skraldespand/'"><div class="coverboks"><span style="display:none;">.</span></div><div class="all">Nyt fra Forsyningen</div><div class="text" style="margin-top:50px;color:#000000;">Toilettet er ikke en skraldespand<br></div></li></ul></div></div></div>
+                                <script type="text/javascript" src="/scripts/home.slider.js"></script>
+                            </div>
+                            <div class="vagtboks">
+                                <div class="v1 showbox" style="
+                            background-image:url(/media/523765/vagtny.png);background-repeat: no-repeat;background-size: cover;color:;background-color:;
+                        "><div class="bokshead">&nbsp;</div><div class="boksunderhead">&nbsp;</div>
+                    &nbsp;
+                </div><div class="v2" style="
+                            background-image:url(/media/523765/vagtny.png);background-repeat: no-repeat;background-size: cover;color:;background-color:;
+                        "><div class="bokshead">&nbsp;</div><div class="boksunderhead">&nbsp;</div>
+                    &nbsp;
+                </div><script type="text/javascript">
+                    var now = new Date();
+                    
+                    var startt = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 09, 00, 0, 0).getTime();
+                    var endt = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, 15, 0, 0).getTime();
+                    //alert(now.getTime() + " " + endt + " " + startt);
+                    if((now.getDay() > 0 && now.getDay() < 6 && now.getTime() >= startt) &&
+                       (now.getDay() > 0 && now.getDay() < 6 && now.getTime() <= endt)
+                      ){
+                        $(".v2").addClass("showbox");
+                    }else{
+                        $(".v1").addClass("showbox");
+                    }
+                </script>
+                                <div style="clear:both;"></div>
+                            </div>
+                            <div class="widgetboks">
+                                <div class="w1 w1desk" onclick="
+                            window.location='https://kalfor.dk/varme/ny-takststruktur-paa-fjernvamen/'" style="
+            
+                            background-image:url(/media/523907/colourbox6892418.jpg?crop=0,0.02661290322580645,0.59047619047619038,0.56386328725038393&amp;cropmode=percentage&amp;width=258&amp;height=258);background-repeat: no-repeat;background-size: cover;cursor:pointer;color:#feb80a;background-color:;
+                        "><div class="bokshead">Ændringer&nbsp;</div><div class="boksunderhead">for fjernvarmekunder&nbsp;</div><div class="boksarrows"><svg id="arrowW1" style="enable-background:new 0 0 26.655 27.512;fill:#feb80a;" version="1.1" viewBox="0 0 26.655 27.512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M26.31,13l-15-13L10,1.512l14.128,12.244L10,26l1.31,1.512l15-13c0.219-0.19,0.345-0.466,0.345-0.756   S26.529,13.19,26.31,13z"></path><path d="M16.655,13.756c0-0.29-0.126-0.565-0.345-0.756l-15-13L0,1.512l14.128,12.244L0,26l1.31,1.512l15-13   C16.529,14.321,16.655,14.046,16.655,13.756z"></path></g></svg></div>
+                    &nbsp;
+                </div>
+                                <div class="w1 w1960" onclick="
+                            window.location='https://kalfor.dk/varme/ny-takststruktur-paa-fjernvamen/'" style="
+            
+                            background-image:url(/media/523907/colourbox6892418.jpg?crop=0.077519379844961239,0,0,0&amp;cropmode=percentage&amp;width=238&amp;height=258);background-repeat: no-repeat;background-size: cover;cursor:pointer;color:#feb80a;background-color:;
+                        "><div class="bokshead">Ændringer&nbsp;</div><div class="boksunderhead">for fjernvarmekunder&nbsp;</div><div class="boksarrows"><svg id="arrowW1" style="enable-background:new 0 0 26.655 27.512;fill:#feb80a;" version="1.1" viewBox="0 0 26.655 27.512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M26.31,13l-15-13L10,1.512l14.128,12.244L10,26l1.31,1.512l15-13c0.219-0.19,0.345-0.466,0.345-0.756   S26.529,13.19,26.31,13z"></path><path d="M16.655,13.756c0-0.29-0.126-0.565-0.345-0.756l-15-13L0,1.512l14.128,12.244L0,26l1.31,1.512l15-13   C16.529,14.321,16.655,14.046,16.655,13.756z"></path></g></svg></div>
+                    &nbsp;
+                </div>
+                                <div class="w1 w1768" onclick="
+                            window.location='https://kalfor.dk/varme/ny-takststruktur-paa-fjernvamen/'" style="
+            
+                            background-image:url(/media/523907/colourbox6892418.jpg?crop=0,0.044303435659978213,0.4926542045389592,0.5869776482021386&amp;cropmode=percentage&amp;width=355&amp;height=258);background-repeat: no-repeat;background-size: cover;cursor:pointer;color:#feb80a;background-color:;
+                        "><div class="bokshead">Ændringer&nbsp;</div><div class="boksunderhead">for fjernvarmekunder&nbsp;</div><div class="boksarrows"><svg id="arrowW1" style="enable-background:new 0 0 26.655 27.512;fill:#feb80a;" version="1.1" viewBox="0 0 26.655 27.512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M26.31,13l-15-13L10,1.512l14.128,12.244L10,26l1.31,1.512l15-13c0.219-0.19,0.345-0.466,0.345-0.756   S26.529,13.19,26.31,13z"></path><path d="M16.655,13.756c0-0.29-0.126-0.565-0.345-0.756l-15-13L0,1.512l14.128,12.244L0,26l1.31,1.512l15-13   C16.529,14.321,16.655,14.046,16.655,13.756z"></path></g></svg></div>
+                    &nbsp;
+                </div>
+                                <div class="w1 w1480" onclick="
+                            window.location='https://kalfor.dk/varme/ny-takststruktur-paa-fjernvamen/'" style="
+            
+                            background-image:url(/media/523907/colourbox6892418.jpg?crop=0.077419354838709681,0,0.050487621905476392,0&amp;cropmode=percentage&amp;width=225&amp;height=258);background-repeat: no-repeat;background-size: cover;cursor:pointer;color:#feb80a;background-color:;
+                        "><div class="bokshead">Ændringer&nbsp;</div><div class="boksunderhead">for fjernvarmekunder&nbsp;</div><div class="boksarrows"><svg id="arrowW1" style="enable-background:new 0 0 26.655 27.512;fill:#feb80a;" version="1.1" viewBox="0 0 26.655 27.512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M26.31,13l-15-13L10,1.512l14.128,12.244L10,26l1.31,1.512l15-13c0.219-0.19,0.345-0.466,0.345-0.756   S26.529,13.19,26.31,13z"></path><path d="M16.655,13.756c0-0.29-0.126-0.565-0.345-0.756l-15-13L0,1.512l14.128,12.244L0,26l1.31,1.512l15-13   C16.529,14.321,16.655,14.046,16.655,13.756z"></path></g></svg></div>
+                    &nbsp;
+                </div>
+                                <div class="w1 w1320" onclick="
+                            window.location='https://kalfor.dk/varme/ny-takststruktur-paa-fjernvamen/'" style="
+            
+                            background-image:url(/media/523907/colourbox6892418.jpg?crop=0,0.029032258064516134,0.53579353030479981,0.59434739859786867&amp;cropmode=percentage&amp;width=318&amp;height=258);background-repeat: no-repeat;background-size: cover;cursor:pointer;color:#feb80a;background-color:;
+                        "><div class="bokshead">Ændringer&nbsp;</div><div class="boksunderhead">for fjernvarmekunder&nbsp;</div><div class="boksarrows"><svg id="arrowW1" style="enable-background:new 0 0 26.655 27.512;fill:#feb80a;" version="1.1" viewBox="0 0 26.655 27.512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M26.31,13l-15-13L10,1.512l14.128,12.244L10,26l1.31,1.512l15-13c0.219-0.19,0.345-0.466,0.345-0.756   S26.529,13.19,26.31,13z"></path><path d="M16.655,13.756c0-0.29-0.126-0.565-0.345-0.756l-15-13L0,1.512l14.128,12.244L0,26l1.31,1.512l15-13   C16.529,14.321,16.655,14.046,16.655,13.756z"></path></g></svg></div>
+                    &nbsp;
+                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <script type="text/javascript">
+                        
+                        var i = 0;
+            var TIME_INTERVAL=5;
+            
+             $(document).ready(function () {
+            //debugger;
+                    cookieValue = getCookie('infoscreenuser');
+                    if (cookieValue == "Yes") {
+                        ShowCurrentTime();
+            clearsessionStorage();
+                    }
+                });
+            function ShowCurrentTime() {
+                i++;
+                if (i == TIME_INTERVAL) {
+                    setTimeout("location.href='http://www.kalfor.dk/infoskaerm/'", 0);
+                }
+                window.setTimeout("ShowCurrentTime()", 5000);
+            }
+                        function getCookie(w) {
+                        var value = "No";
+                        if (sessionStorage.infoscreenuser != undefined && sessionStorage.infoscreenuser != null)
+                        {
+                            value = sessionStorage.infoscreenuser;
+                        }
+            
+                        return value;
+                    }
+            
+            function clearsessionStorage()
+                    {
+                        if (sessionStorage.infoscreenuser != undefined && sessionStorage.infoscreenuser != null)
+                        {
+                            sessionStorage.removeItem("infoscreenuser");
+                        }
+                    }
+                    </script>
+            
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

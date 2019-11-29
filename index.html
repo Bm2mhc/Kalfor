@@ -62,8 +62,8 @@
                     <a href="#" class="brand-logo" id="home"><img src="/Images/logo.jpg" height="60" width="200'"></a>
 
                     <ul class="hide-on-med-and-down right">
-                        <li><a id="kort" class='dropdown-trigger btn' datatarget="kort" href="#kort" style="font-family: 'oswald'">Kort</a></li>
-                        <li><a id="kontakt" class='dropdown-trigger btn' datatarget="kontakt" href="#kontakt" style="font-family: 'oswald'">Kontakt</a></li>
+                        <a id="kort" class='waves-effect waves-light btn' href="#firma" style="font-family: 'oswald'">Kort</a>
+                        <a id="borger" class='waves-effect waves-light btn' href="#borger" style="font-family: 'oswald'">Borger</a>
                         
 
 
@@ -79,8 +79,10 @@
             <div id="page-one">
                 <div class="row">
                     <div class="col s12 l4 offset-l1">
-
-                        <img src="https://arcticwolf.com/wp-content/uploads/2018/01/LEGAL-300x300.png">
+<pre>
+    
+</pre>
+                        <img src="/Images/logo.jpg" height="60" width="250'">
 
                     </div>
                     <div class="col s12 l7">
@@ -93,34 +95,44 @@
                         </pre>
                         <pre>
 
-                            </pre>
-                        <pre>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                                </pre>
-                        <pre>
 
-                                    </pre>
-                        <pre>
+        
+        <div class="container" style="margin-top: 1%">
+            <div id="page-kort">
+                <div class="row">
+                    <div class="col s12 l12">
 
-                                        </pre>
+                        <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMjU3Y2Y2YTYtNDVkZC00ZDFhLTlkMjMtMDhkZGExOTY0Mjg4IiwidCI6Ijg2ZmFiMmRjLTE3MGEtNGY3Ni04NDRiLWQ3ZGZkYmRlZjNkOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="container" style="margin-top: 1%">
-            <div id="page-kort">
+            <div id="page-borger">
                 <div class="row">
-                    <div class="col s12 l0 offset-l0">
-                        <img src="https://source.unsplash.com/300x300/?35">
-                    </div>
-                    <div class="col s12 l12">
+                    <div class="col s12 l4 offset-l1">
+<pre>
+    
+</pre>
+                        <img src="/Images/logo.jpg" height="60" width="250'">
 
-                        <h4> § 35 Det nye folketing</h4>
-                        <p>Stk 1. Det nyvalgte folketing skal holde første møde kl. 12, den 12. hverdag efter dagen der
-                            har været valg, hvis monarkiet ikke har kaldt til et møde inden den 12. hverdag efter valget
-                        </p>
-                        <p>Stk 2. Lige efter dette skal folketinget vælge formand og næstformand</p>
+                    </div>
+                    <div class="col s12 l7">
+
+                        <h4>Din data</h4>
+                        <p>Dit hus var ramt 5 gange. Det er 60 % mere end gennemsnitet og det er 3 lukninger mere end 2018</p>
+                        <p>5/5 lukninger på din grund har været planlagt</p>
+                        <pre>
+
+                        </pre>
+                        <pre>
 
                     </div>
                 </div>
@@ -133,10 +145,9 @@
                 <div class="row">
                     <div class="col s12 l6">
                         <h5>Kontakt</h5>
-                        <a href="https://www.instagram.com/marinus_h_christensen/" class="white-text">Marinus Hurni
-                            Christensen, 2r (SH)</a>
-                        <p>Lokale : 24</p>
-                        <p>20 gang</p>
+                        <a href="https://kalfor.dk " class="white-text">Kalundborg Forsyning </a>
+                        <p> Dokhavnsvej 15, 4400 Kalundborg </p>
+
                     </div>
                     <div class="col s12 l4 offset-l2">
                         <h5>Links</h5>
@@ -164,10 +175,24 @@
         $('#home').click(function () {
             $('#page-one').show();
             $('#page-kort').hide();
+            $('#page-borger').hide();
+        });
+
+        $('#kort').click(function () {
+            $('#page-one').hide();
+            $('#page-kort').show();
+            $('#page-borger').hide();
+        });
+
+        $('#borger').click(function () {
+            $('#page-one').hide();
+            $('#page-kort').hide();
+            $('#page-borger').show();
         });
 
         $('#page-one').show();
         $('#page-kort').hide();
+        $('#page-borger').hide();
 
 </script>
 
